@@ -1,10 +1,9 @@
 import {Outlet} from "react-router-dom";
 
-export default function Login() {
+export default function DefaultLayout() {
     return (
         <div>
-            Login
-
+            Default Layout
             <Outlet />
         </div>
     )
